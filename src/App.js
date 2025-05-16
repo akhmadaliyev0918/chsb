@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:5000/api'; // Backend asosiy manzili
+const API_BASE_URL = 'https://chsbserver.vercel.app/api'; // Backend asosiy manzili
 
 function App() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem('chatUser')));
